@@ -2,7 +2,7 @@
 
 CountrySelect is a component that fetches countries and renders a select element with these countries and their flags.
 
-👉🏻 [Live demo link](https://noon-task.vercel.app/)
+👉🏻 [Live demo link](https://re-country-select.netlify.app)
 
 ![Demo](./demo.gif)
 
