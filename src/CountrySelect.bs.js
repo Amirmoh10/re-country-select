@@ -62,7 +62,10 @@ function CountrySelect(Props) {
                 return Promise.resolve(undefined);
               });
           
-        }), []);
+        }), [
+        onError,
+        setCountries
+      ]);
   var getSelectedIndex = function (selectedValues) {
     if (selectedValues.length === 0) {
       return 0;

@@ -15,7 +15,8 @@ function ReactSelectOption(Props) {
           
         }), [
         optionProps.value,
-        optionProps.isFocused
+        optionProps.isFocused,
+        scrollIntoItem
       ]);
   var children = React.createElement("div", {
         className: "option"

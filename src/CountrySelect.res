@@ -35,7 +35,7 @@ let make = (
     ->Belt.Option.forEach((listEl: VirtualizedList.listEl) => listEl.scrollToItem(. index))
   }
 
-  React.useEffect0(() => {
+  React.useEffect2(() => {
     let _ =
       Fetch.fetch(apiURL)->Js.Promise.then_(Fetch.Response.json, _)->Js.Promise.then_(arrOfData => {
         switch ReactSelect.countryOptions_decode(arrOfData) {
@@ -50,7 +50,7 @@ let make = (
       }, _)
 
     None
-  })
+  }, (onError, setCountries))
 
   let getSelectedIndex = (selectedValues: array<ReactSelect.countryOption>) => {
     switch selectedValues {
