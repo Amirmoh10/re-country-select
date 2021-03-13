@@ -1,1 +1,1 @@
-import "./index.bs";
+import "./Index.bs";

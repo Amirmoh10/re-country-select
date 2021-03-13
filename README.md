@@ -1,6 +1,6 @@
 # CountrySelect
 
-CountrySelect is a component that fetches countries and renders select element with these countries and their flags.
+CountrySelect is a component that fetches countries and renders a select element with these countries and their flags.
 
 👉🏻 [Live demo link](https://noon-task.vercel.app/)
 
