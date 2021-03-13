@@ -1,0 +1,17 @@
+####{BSB GENERATED: NO EDIT
+B lib/bs
+FLG -open RescriptPractice
+FLG -ppx /Users/amirghezala/Desktop/rescript-practice/node_modules/decco/ppx
+FLG -ppx '/Users/amirghezala/Desktop/rescript-practice/node_modules/bs-platform/darwin/bsc.exe -as-ppx -bs-jsx 3'
+S /Users/amirghezala/Desktop/rescript-practice/node_modules/bs-platform/lib/ocaml
+B /Users/amirghezala/Desktop/rescript-practice/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S /Users/amirghezala/Desktop/rescript-practice/node_modules/@rescript/react/lib/ocaml
+B /Users/amirghezala/Desktop/rescript-practice/node_modules/@rescript/react/lib/ocaml
+S /Users/amirghezala/Desktop/rescript-practice/node_modules/bs-fetch/lib/ocaml
+B /Users/amirghezala/Desktop/rescript-practice/node_modules/bs-fetch/lib/ocaml
+S /Users/amirghezala/Desktop/rescript-practice/node_modules/decco/lib/ocaml
+B /Users/amirghezala/Desktop/rescript-practice/node_modules/decco/lib/ocaml
+S src
+B lib/bs/src
+####BSB GENERATED: NO EDIT}
